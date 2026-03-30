@@ -1,282 +1,406 @@
 <!doctype html>
-<html class="dark" lang="en">
+<html lang="fr">
     <head>
-        <meta charset="utf-8" />
-        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Portfolio de Zhukov Oleksandr, développeur web basé à Paris." />
+        <title>Zhukov Oleksandr — Développeur web</title>
+        <link rel="stylesheet" href="styles/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap"
-            rel="stylesheet"
-        />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
-            rel="stylesheet"
-        />
-        <link rel="stylesheet" href="style.css" />
+            href="https://fonts.googleapis.com/css2?family=Audiowide&family=Goldman:wght@400;700&family=Oldenburg&family=Playwrite+NO:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Zen+Dots&display=swap"
+            rel="stylesheet">
     </head>
     <body>
-        <!-- TopAppBar -->
-        <header class="header">
-            <nav class="nav-inner">
-                <div class="logo-group">
-                    <span class="material-symbols-outlined logo-icon">terminal</span>
-                    <span class="logo-text">TERMINAL_ARCHITECT</span>
-                </div>
-                <div class="nav-links">
-                    <a class="nav-link active" href="#home">Home</a>
-                    <a class="nav-link" href="#stack">Tech</a>
-                    <a class="nav-link" href="#projects">Work</a>
-                    <a class="nav-link" href="#contact">Mail</a>
-                </div>
-            </nav>
-        </header>
-
-        <main>
-            <!-- Hero Section -->
-            <section class="hero" id="home">
-                <div class="hero-bg-glow"></div>
-                <div class="container relative-z">
-                    <div class="hero-inner">
-                        <div class="hero-content">
-                            <div class="status-badge">
-                                <span class="ping-wrapper">
-                                    <span class="ping-anim"></span>
-                                    <span class="ping-dot"></span>
-                                </span>
-                                Available for deployment
-                            </div>
-                            <h1 class="hero-title text-glow">
-                                HI, I'M ALEX.<br />
-                                I BUILD <span class="text-primary">FULLSTACK</span><br />
-                                SOLUTIONS.
-                            </h1>
-                            <p class="hero-desc">
-                                Operating at the intersection of brutalist technical efficiency and high-end digital
-                                editorialism. Architecting scalable systems with a focus on minimalist aesthetics and
-                                robust performance.
-                            </p>
-                            <div class="hero-cta">
-                                <a class="btn-primary" href="#projects">View Projects</a>
-                                <a class="btn-outline" href="#contact">Contact Me</a>
+        <main class="scroll-container">
+            <section id="top" class="step">
+                <div class="container top">
+                    <div class="header fade-in">
+                        <picture class="avatar"><img src="./images/zhukov_s.jpg" alt="Zhukov Oleksandr" loading="lazy"/> </picture>
+                        <div class="title">
+                            <h1>Zhukov Oleksandr</h1>
+                            <div class="profession">
+                                <h2>Développeur web</h2>
                             </div>
                         </div>
                     </div>
+                    </div>
+                    <nav class="fade-in delay-1">
+                        <ul class="nav-grid">
+                            <li><a class="link-about" href="#about">A propos de moi</a></li>
+                            <li><a class="link-experience" href="#experience">Expérience</a></li>
+                            <li><a class="link-education" href="#education">Éducation</a></li>
+                            <li><a class="link-skills" href="#skills">Compétences</a></li>
+                            <li><a class="link-projects" href="#projects">Projets</a></li>
+                            <li><a class="link-contact" href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class="slogan fade-in delay-2">
+                        <p class="first">Le véritable rôle d'un développeur</p>
+                        <p> ... </p>   
+                        <p class="second">Résoudre des problèmes!</p>
+                        <p class="third">Coder n'est qu'un outil.</p>
+                    </div>
                 </div>
             </section>
-
-            <!-- Skills Section -->
-            <section class="skills-section" id="stack">
-                <div class="container">
+            <section id="about" class="step">
+                <div class="section-title"><h2>À propos de moi</h2></div>
+                <div class="container about">
+                    <div class="about-flex">
+                        <picture class="about-photo"><img src="./images/climb_s.JPG" alt="Zhukov Oleksandr en escalade" loading="lazy"/></picture>
+                        <div class="pitch">
+                            <p>
+                                Ingénieur diplômé, je combine rigueur technique et expérience industrielle avec une passion pour
+                                l'informatique. Motivé et engagé, je souhaite mettre mes compétences au service du développement
+                                web et d'applications réelles et utiles.
+                            </p>
+                            <p>
+                                Je parle quatre langues et je m'adapte facilement aux environnements internationaux. Dynamique
+                                et curieux, j'aime relever de nouveaux défis, résoudre des problèmes techniques et viser de
+                                nouveaux sommets, au sens propre comme au figuré.
+                            </p>
+                            <p>
+                                Toujours curieux d'apprendre, je recherche un environnement où je peux continuer à évoluer et à
+                                contribuer.
+                            </p>
+                        </div>
+                </div>
+                </div>
+            </section>
+            <section id="experience" class="step">
+                <div class="section-title">
+                    <h2>Expérience professionnelle</h2>
+                </div>
+                <div class="container experience">
+                    <div class="pair">
+                        <picture class="pic"><img src="./images/car-1.jpg" alt="Car meme" loading="lazy" /></picture>
+                            <table class="experience-table left">
+                                <tbody>
+                                    <tr>
+                                        <th>Position</th>
+                                        <td data-label="Position">Technicien</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Entreprise</th>
+                                        <td data-label="Lieu">Audi Premium Velizy</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Période</th>
+                                        <td data-label="Période">sept. 2023 — déc. 2025</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Missions et Tâches</th>
+                                        <td data-label="Missions">
+                                            <ul>
+                                                <li>Diagnostic et recherche de pannes automobiles.</li>
+                                                <li>Réparation de pannes automobiles.</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                    </div>
+                    <hr class="separator">
+                    <div class="pair second">
+                        
+                    <table class="experience-table right">
+                        <tbody>
+                            <tr>
+                                <th>Position</th>
+                                <td data-label="Position">Mécanicien</td>
+                            </tr>
+                            <tr>
+                                <th>Entreprise</th>
+                                <td data-label="Lieu">BestDrive</td>
+                            </tr>
+                            <tr>
+                                <th>Période</th>
+                                <td data-label="Période">sept. 2021 — août 2023</td>
+                            </tr>
+                            <tr>
+                                <th>Missions et Tâches</th>
+                                <td data-label="Missions">
+                                    <ul>
+                                        <li>Réparation de pannes automobiles.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <picture class="pic ="><img src="./images/car_2.jpg" alt="Car meme" loading="lazy" /></picture>
+                    </div>
+                    <hr class="separator">
+                    <div class="pair antonov">
+                    <picture class="pic"><img src="./images/plane.jpg" alt="Plane meme" loading="lazy" /></picture>
+                    <table class="experience-table left">
+                        <tbody>
+                            <tr>
+                                <th>Position</th>
+                                <td data-label="Position">Technicien</td>
+                            </tr>
+                            <tr>
+                                <th>Entreprise</th>
+                                <td data-label="Lieu">ANTONOV</td>
+                            </tr>
+                            <tr>
+                                <th>Période</th>
+                                <td data-label="Période">sept. 2014 — août 2017</td>
+                            </tr>
+                            <tr>
+                                <th>Missions et Tâches</th>
+                                <td data-label="Missions">
+                                    <ul>
+                                        <li>Maintenance et diagnostic des systèmes techniques.</li>
+                                        <li>Optimisation des processus de production.</li>
+                                        <li>Rédaction de rapports techniques et suivi de maintenance.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                </div>
+            </section>
+            <section id="education" class="step">
+                <div class="section-title">
+                    <h2>Education</h2></div>
+                <div class="container education">
+                    <div class="table-scroll">
+                    <table class="experience-table education-table">
+                        <tbody>
+                            <tr>
+                                <th>Diplôme</th>
+                                <td data-label="Diplôme">Développeur web et web mobile</td>
+                            </tr>
+                            <tr>
+                                <th>Établissement</th>
+                                <td data-label="Établissement">AFPA, Paris</td>
+                            </tr>
+                            <tr>
+                                <th>Période</th>
+                                <td data-label="Période">fev. 2026 - sept. 2026</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                    <hr class="separator">
+                    <div class="table-scroll">
+                    <table class="experience-table education-table ">
+                        <tbody>
+                            <tr>
+                                <th>Diplôme</th>
+                                <td data-label="Diplôme">BAC PRO maintenance vehicule leger</td>
+                            </tr>
+                            <tr>
+                                <th>Établissement</th>
+                                <td data-label="Établissement">AFORPA, Paris</td>
+                            </tr>
+                            <tr>
+                                <th>Période</th>
+                                <td data-label="Période">sept. 2021 - août 2023</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                    <hr class="separator">
+                    <div class="table-scroll">
+                    <table class="experience-table education-table">
+                        <tbody>
+                            <tr>
+                                <th>Diplôme</th>
+                                <td data-label="Diplôme">
+                                    Ingénieur en mécanique de l'aviation et de la construction de fusées
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Établissement</th>
+                                <td data-label="Établissement">
+                                    L'Université Nationale Aérospatiale Joukovski, Kyiv, Ukraine
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Période</th>
+                                <td data-label="Période">fev. 2014 - août 2017</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                </div>
+            </section>
+            <section id="skills" class="step">
+                <h2 class="section-title">Compétences</h2>
+                <div class="container skills-container">
+                    
                     <div class="skills-grid">
-                        <div class="skills-intro">
-                            <span class="section-label">Tech Stack</span>
-                            <h2 class="section-title">The Toolbelt</h2>
-                            <p class="section-desc">
-                                A curated selection of modern technologies used to build performant, type-safe, and
-                                scalable web applications.
-                            </p>
+                        <div class="skill-block">
+                            <h3>Languages & Core</h3>
+                            <ul class="skill-tags">
+                                <li>Python</li>
+                                <li>JavaScript</li>
+                                <li>SQL</li>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                            </ul>
                         </div>
-                        <div class="tech-chips">
-                            <div class="tech-chip">
-                                <span class="chip-name">&gt; React</span>
-                                <span class="chip-desc">Frontend Framework</span>
-                            </div>
-                            <div class="tech-chip">
-                                <span class="chip-name">&gt; Node.js</span>
-                                <span class="chip-desc">Server-side JS</span>
-                            </div>
-                            <div class="tech-chip">
-                                <span class="chip-name">&gt; Python</span>
-                                <span class="chip-desc">Backend &amp; Logic</span>
-                            </div>
-                            <div class="tech-chip">
-                                <span class="chip-name">&gt; PostgreSQL</span>
-                                <span class="chip-desc">Relational DB</span>
-                            </div>
-                            <div class="tech-chip">
-                                <span class="chip-name">&gt; AWS</span>
-                                <span class="chip-desc">Cloud Infrastructure</span>
-                            </div>
-                            <div class="tech-chip">
-                                <span class="chip-name">&gt; Tailwind</span>
-                                <span class="chip-desc">Atomic Styling</span>
-                            </div>
+            
+                        <div class="skill-block">
+                            <h3>Frameworks & Bases de données</h3>
+                            <ul class="skill-tags">
+                                <li>FastAPI</li>
+                                <li>React</li>
+                                <li>Node.js</li>
+                                <li>PostgreSQL</li>
+                                <li>SQLAlchemy</li>
+                                <li>Pytest</li>
+                            </ul>
                         </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Projects Section -->
-            <section class="projects-section" id="projects">
-                <div class="container">
-                    <div class="projects-header">
-                        <div>
-                            <span class="section-label">Portfolio</span>
-                            <h2 class="section-title-lg">Selected Work</h2>
+            
+                        <div class="skill-block">
+                            <h3>Infrastructure & Outils</h3>
+                            <ul class="skill-tags">
+                                <li>Docker</li>
+                                <li>Git / GitHub / GitLab</li>
+                                <li>GitHub Actions (CI/CD)</li>
+                                <li>Postman</li>
+                            </ul>
                         </div>
-                    </div>
-                    <div class="bento-grid">
-                        <!-- Featured Project -->
-                        <div class="bento-featured project-card">
-                            <div class="card-overlay"></div>
-                            <img
-                                alt="Code on a screen"
-                                class="card-img"
-                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuC1c06LXrMrP4yHm3TRGdFwIuD54M6PNz7DE6tHI8s3Y2HRaayMpcJTaO3etobdb4L87sCRRR9uvVk6ZHwFl2TZHLqzDVwuKl1b4X01Pr8Z45iuCYRyewG9ZGoC8dYBLSzAYpUbvxTSeN2uRp0JxRdSj6lCHOxjlA0XA8lgNt6s43f3x4l0OSoKHfjPU93k7Mu0FY_e_P53t3smujOLz0BV6aT0Smi3DG4XFR-dvPO_pT4VHjRqQQ0uzVREpFd3f9R3RHrkgcFIZJRx"
-                            />
-                            <div class="card-body">
-                                <div class="card-tags">
-                                    <span class="tag tag-primary">Featured</span>
-                                    <span class="tag tag-dark">Web3</span>
-                                </div>
-                                <h3 class="card-title">NEURAL_DEFI_HUB</h3>
-                                <p class="card-desc">
-                                    A decentralized dashboard for tracking real-time neural-processed market analytics.
-                                </p>
-                                <a class="card-link" href="#">
-                                    EXPLORE CASE STUDY
-                                    <span class="material-symbols-outlined arrow-icon">arrow_forward</span>
-                                </a>
-                            </div>
-                        </div>
-
-                        <!-- Small Project 1 -->
-                        <div class="bento-small project-card">
-                            <div class="card-overlay-soft"></div>
-                            <img
-                                alt="Abstract neon lines"
-                                class="card-img card-img-dim"
-                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdXVXIWc7PRg1mWkQFs9gN8YJ5l3LxDfOl19a83E12wHBcJaEwoItp3oQTt_uMRSE_TXjkewsEUCUUxK0PpbgRlylg2NqqADrdqAXY9ILe1mA6_g4afvvAPmOzeufZ4e_d6kJR-QXO5a_tbrv-wfsn2uPbhyoJnEpYwoFNnAuOI8GNMPwNlghy-09VUt_b4saMR5nNTIQp1k4ObUpPs-Bh6yyABavIdBk7j1IIMPaMSYyPWPgKZVFl5VPaP1mWv8ma5-n6adPJDPqX"
-                            />
-                            <div class="card-body">
-                                <span class="tag tag-dark mb-4-block">SaaS</span>
-                                <h3 class="card-title-sm">GHOST_CMS</h3>
-                                <p class="card-desc-sm">
-                                    A headless content architecture for rapid digital publishing.
-                                </p>
-                            </div>
-                        </div>
-
-                        <!-- Small Project 2 -->
-                        <div class="bento-small project-card-plain">
-                            <div class="card-body card-body-flex">
-                                <span class="tag tag-dark mb-4-block">Open Source</span>
-                                <h3 class="card-title-sm">TERMINAL_UI_KIT</h3>
-                                <p class="card-desc-sm mb-6-block">
-                                    Lightweight CSS library for building terminal-inspired web interfaces.
-                                </p>
-                                <div class="card-icons">
-                                    <span class="material-symbols-outlined icon-muted">terminal</span>
-                                    <span class="material-symbols-outlined icon-muted">code</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Medium Project -->
-                        <div class="bento-medium project-card-plain project-card-hover">
-                            <div class="card-hover-glow"></div>
-                            <div class="card-split">
-                                <div class="card-split-text">
-                                    <span class="tag tag-dark mb-4-block">Infrastructure</span>
-                                    <h3 class="card-title-md">CORE_CLOUD_STRAT</h3>
-                                    <p class="card-desc">
-                                        Automated deployment pipeline for high-availability microservices using AWS
-                                        Lambda and Terraform.
-                                    </p>
-                                </div>
-                                <div class="card-split-icon">
-                                    <div class="icon-circle">
-                                        <div class="icon-pulse"></div>
-                                        <span class="material-symbols-outlined icon-xl">cloud_done</span>
-                                    </div>
-                                </div>
-                            </div>
+            
+                        <div class="skill-block">
+                            <h3>Soft skills & Langues</h3>
+                            <ul class="skill-tags">
+                                <li>Français</li>
+                                <li>Anglais</li>
+                                <li>Ukrainien</li>
+                                <li>Russe</li>
+                                <li>Autonomie</li>
+                                <li>Adaptabilité</li>
+                                <li>Persévérance</li>
+                                <li>Organisation</li>
+                                <li>Gestion du stress</li>
+                                
+                            </ul>
                         </div>
                     </div>
                 </div>
             </section>
+            <section id="projects" class="step">
+                <div class="section-title"><h2>Mes projets</h2></div>
 
-            <!-- Contact Section -->
-            <section class="contact-section" id="contact">
-                <div class="scan-lines"></div>
-                <div class="container relative-z">
+                <div class="container projects">
+                    
+                    <div class="projects-grid">
+                        <a href="https://gitlab.com/pulse_panel" target="_blank" class="project-card">
+                            <div class="card-bg">
+                                <img src="./images/code.webp" alt="Pulse panel background">
+                            </div>
+                    
+                            <div class="card-content">
+                                <h2 class="project-title">PULSE_PANEL</h2>
+                    
+                                <p class="project-description">
+                                    À ce jour, c'est mon projet le plus important, toujours en cours de développement et réalisé
+                                    en équipe. L'idée : créer une page de navigateur personnalisable avec des widgets
+                                    modifiables affichant les informations qui intéressent l'utilisateur. Dans l'équipe, je suis
+                                    responsable du développement backend, de la configuration des bases de données et de la mise
+                                    en place des tests.
+                                </p>
+                    
+                                <div class="badges">
+                                    <span class="badge featured">Python</span>
+                                    <span class="badge featured">FastAPI</span>
+                                    <span class="badge featured">PostgreSQL</span>
+                                    <span class="badge featured">Pytest</span>
+                                    <span class="badge featured">Docker</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div><a href="https://github.com/AlexBesouro" target="_blank" class="github-btn">
+                    <svg viewBox="0 0 24 24">
+                        <path
+                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                    </svg>
+                    Mon GitHub
+                </a></div>
+            </section>
+            <section id="contact" class="step">
+                <h2 class="section-title">Contact</h2>
+                <div class="container contact-container">
+                    
                     <div class="contact-grid">
-                        <div class="contact-info">
-                            <span class="section-label">Get in touch</span>
-                            <h2 class="contact-title">
-                                Let's build <br /><span class="text-primary">together.</span>
-                            </h2>
-                            <p class="contact-desc">
-                                Currently open to new opportunities and freelance collaborations. Drop a message to
-                                start a conversation about your next technical challenge.
-                            </p>
-                            <div class="contact-details">
-                                <div class="contact-row">
-                                    <div class="contact-icon-box">
-                                        <span class="material-symbols-outlined icon-primary">alternate_email</span>
-                                    </div>
-                                    <span class="contact-text">hello@terminalarchitect.dev</span>
-                                </div>
-                                <div class="contact-row">
-                                    <div class="contact-icon-box">
-                                        <span class="material-symbols-outlined icon-primary">location_on</span>
-                                    </div>
-                                    <span class="contact-text">REMOTE / GLOBAL</span>
-                                </div>
+                        <form action="https://formspree.io/f/mnjgqkzl" method="POST" class="contact-form">
+                            <div class="form-group">
+                                <label for="id_nom">Votre nom</label>
+                                <input type="text" id="id_nom" name="nom" placeholder="Jean Dupont" />
                             </div>
-                        </div>
-                        <div class="contact-form-wrapper">
-                            <form class="contact-form">
-                                <div class="form-group">
-                                    <label class="form-label">Your Name</label>
-                                    <input class="form-input" placeholder="ALAN TURING" type="text" />
-                                </div>
-                                <div class="form-group">
-                                    <label class="form-label">Email Address</label>
-                                    <input class="form-input" placeholder="ALAN@ENIGMA.COM" type="email" />
-                                </div>
-                                <div class="form-group">
-                                    <label class="form-label">Message</label>
-                                    <textarea class="form-input form-textarea" placeholder="HOW CAN I HELP YOU?" rows="4"></textarea>
-                                </div>
-                                <button class="btn-submit" type="submit">Send Message</button>
-                            </form>
+                            <div class="form-group">
+                                <label for="id_email">Votre email</label>
+                                <input type="email" id="id_email" name="email" placeholder="jean@exemple.fr" />
+                            </div>
+                            <div class="form-group">
+                                <label for="id_site">Site web (optionnel)</label>
+                                <input type="text" id="id_site" name="web_site" placeholder="https://..." />
+                            </div>
+                            <div class="form-group">
+                                <label for="id_message">Message</label>
+                                <textarea id="id_message" name="message" rows="8" placeholder="Votre message..."></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Envoyer →</button>
+                        </form>
+            
+                        <div class="contact-info-side">
+                            <div>
+                                <h3>Travaillons ensemble.</h3>
+                                <p>N'hésitez pas à me contacter pour toute opportunité ou collaboration.</p>
+                            </div>
+                            <ul class="social-list">
+                                <li>
+                                    <a href="https://github.com/AlexBesouro" target="_blank">
+                                        <svg viewBox="0 0 24 24" class="icon">
+                                            <path
+                                                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                        </svg>
+                                        GitHub
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/zhukov-oleksandr-42b69a265/" target="_blank">
+                                        <svg viewBox="0 0 24 24" class="icon">
+                                            <path
+                                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                                        </svg>
+                                        LinkedIn
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:zhukovoleksandrv@gmail.com">
+                                        <svg viewBox="0 0 24 24" class="icon">
+                                            <path
+                                                d="M12 12.713l-11.985-9.713h23.97l-11.985 9.713zm0 2.574l12-9.725v15.438h-24v-15.438l12 9.725z" />
+                                        </svg>
+                                        zhukovoleksandrv@gmail.com
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="tel:+33621606762">
+                                        <svg viewBox="0 0 24 24" class="icon">
+                                            <path
+                                                d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                                        </svg>
+                                        06 21 60 67 62
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
+            
+                    <footer>
+                        <p>&copy; 2026 Zhukov Oleksandr — All rights reserved.</p>
+                    </footer>
                 </div>
             </section>
         </main>
-
-        <!-- Footer -->
-        <footer class="footer">
-            <div class="footer-inner">
-                <div class="footer-logo">TERMINAL_ARCHITECT</div>
-                <div class="footer-copy">© 2024 TERMINAL_ARCHITECT // ALL RIGHTS RESERVED</div>
-                <div class="footer-links">
-                    <a class="footer-link" href="#">GitHub</a>
-                    <a class="footer-link" href="#">LinkedIn</a>
-                    <a class="footer-link" href="#">Twitter</a>
-                </div>
-            </div>
-        </footer>
-
-        <!-- Bottom Nav (Mobile) -->
-        <nav class="bottom-nav">
-            <a class="bottom-nav-item active" href="#home">
-                <span class="material-symbols-outlined">home</span>
-                <span class="bottom-nav-label">Home</span>
-            </a>
-            <a class="bottom-nav-item" href="#stack">
-                <span class="material-symbols-outlined">code</span>
-                <span class="bottom-nav-label">Tech</span>
-            </a>
-            <a class="bottom-nav-item" href="#projects">
-                <span class="material-symbols-outlined">grid_view</span>
-                <span class="bottom-nav-label">Work</span>
-            </a>
-            <a class="bottom-nav-item" href="#contact">
-                <span class="material-symbols-outlined">alternate_email</span>
-                <span class="bottom-nav-label">Mail</span>
-            </a>
-        </nav>
     </body>
 </html>
